@@ -1,0 +1,27 @@
+{
+  "name": "avatardownloader",
+  "version": "1.0.0",
+  "description": "A command line node app that uses HTTP to retreive content from GitHub using their API and writes content to the disk",
+  "main": "download_avatars.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxnechaev/avatarDownloader.git"
+  },
+  "keywords": [
+    "github",
+    "avatar",
+    "downloader"
+  ],
+  "author": "Max Nechaev",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/maxnechaev/avatarDownloader/issues"
+  },
+  "homepage": "https://github.com/maxnechaev/avatarDownloader#readme",
+  "dependencies": {
+    "request": "^2.87.0"
+  }
+}
